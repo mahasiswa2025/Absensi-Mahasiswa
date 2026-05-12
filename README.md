@@ -37,6 +37,6 @@ Sistem ini adalah aplikasi web sederhana berbasis PHP untuk mencatat kehadiran m
 *   CSS
 *   PHP
 
-* Tugas Kelompok
+## Tugas Kelompok    
 ketua : Yudha(202212056)
 anggota : Jamil(202212070)

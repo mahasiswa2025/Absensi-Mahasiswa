@@ -26,7 +26,7 @@ Sistem ini adalah aplikasi web sederhana berbasis PHP untuk mencatat kehadiran m
 
 1.  Pastikan web server lokal (misalnya Apache di XAMPP) sudah berjalan.
 2.  Letakkan folder proyek ini di dalam direktori root server (misalnya `htdocs` untuk XAMPP).
-3.  Buka browser web dan akses `http://localhost/absensi` (sesuaikan dengan nama folder jika berbeda).
+3.  Buka browser web dan akses `http://localhost/absensi` 
 4.  Masukkan nama mahasiswa, NIM, dan pilih status kehadiran.
 5.  Klik tombol **Simpan**.
 6.  Hasil absensi beserta pesan khusus akan ditampilkan di bawah formulir.
@@ -36,3 +36,7 @@ Sistem ini adalah aplikasi web sederhana berbasis PHP untuk mencatat kehadiran m
 *   HTML
 *   CSS
 *   PHP
+
+pembuat
+ketua : Yudha(202212056)
+anggota : Jamil(202212070)

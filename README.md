@@ -1,4 +1,3 @@
-# Tugas Kelompok
 # Sistem Absensi Mahasiswa Sederhana
 
 Sistem ini adalah aplikasi web sederhana berbasis PHP untuk mencatat kehadiran mahasiswa. Aplikasi ini menggunakan formulir HTML dengan metode `POST` untuk menangkap nama mahasiswa, NIM, dan status kehadiran (Hadir, Izin, Sakit, Tidak Hadir). 
@@ -38,6 +37,6 @@ Sistem ini adalah aplikasi web sederhana berbasis PHP untuk mencatat kehadiran m
 *   CSS
 *   PHP
 
-pembuat
+* Tugas Kelompok
 ketua : Yudha(202212056)
 anggota : Jamil(202212070)

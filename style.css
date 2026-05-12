@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    color: #1f2937;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #374151;
+    font-size: 0.875rem;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #3b82f6;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0000ff; /* Biru seperti di contoh gambar */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #0000cc;
+}
+
+.result-section {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.result-section h3 {
+    font-size: 1.1rem;
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+.result-section p {
+    font-size: 0.875rem;
+    color: #374151;
+    margin-bottom: 5px;
+}
+
+.result-section .pesan {
+    margin-top: 15px;
+    color: #1f2937;
+}

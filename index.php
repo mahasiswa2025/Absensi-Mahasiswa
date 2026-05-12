@@ -15,6 +15,10 @@
                 <input type="text" id="nama" name="nama" placeholder="Masukkan nama mahasiswa" required>
             </div>
             <div class="form-group">
+                <label for="nim">NIM</label>
+                <input type="text" id="nim" name="nim" placeholder="Masukkan NIM mahasiswa" required>
+            </div>
+            <div class="form-group">
                 <label for="status">Status Kehadiran</label>
                 <select id="status" name="status" required>
                     <option value="" disabled selected>Pilih Status</option>
@@ -30,11 +34,13 @@
         <?php
         if (isset($_POST['submit'])) {
             $nama = htmlspecialchars($_POST['nama']);
+            $nim = htmlspecialchars($_POST['nim']);
             $status = htmlspecialchars($_POST['status']);
 
             echo "<div class='result-section'>";
             echo "<h3>Hasil Absensi</h3>";
             echo "<p>Nama Mahasiswa : <strong>$nama</strong></p>";
+            echo "<p>NIM : <strong>$nim</strong></p>";
             echo "<p>Status Kehadiran : <strong>$status</strong></p>";
 
             // Percabangan if-else
